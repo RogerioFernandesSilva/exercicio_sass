@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="build/main.css">
+    <!-- OBS= CONFIGURAÇÃO DO SASS:
+        1 - Abra o terminal (f1) execute o "npm init" e responda todo o questionário que ira configurar o "package.json" com as dependências de desenvolvimento
+        2 - Execute o comando "npm i --save-dev sass" para instalar o SASS no escopo do projeto, ela ira criar a pasta "node_modules e o "package-lock.json" que ira gerenciar as dependências
+        3 - Crie um arquivo ".gitignore". nele adicione a pasta "node_modules"
+        4 - Crie um arquivo "main.scss"
+        5 - No arquivo "package.json", na sessão de scripts, adicione "sass": "sass"
+        6 - No terminal execute o comando "npm run sass main.scss main.css"
+        7 - No arquivo "package.json", na sessão de scripts, altere "sass": "sass" para "sass source/main.scss build/main.css --watch"-->
+    <title>Verão Gamer</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <img src="src/img/verao-gamer.jpg" />
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="imagem-topo">
+        <img src="src/img/banner.jpg" alt="banner chamada">
+    </div>
+    <section>
+        <div class="container">
+            <h2>Produtos</h2>
+            <ul class="products">
+                <li class="product-item">
+                    <img src="src/img/pc-gamer-t-gamer-hawk-intel-i5-10400f-amd-radeon-rx-6650xt-16gb-2x8gb-ddr4-ssd-240gb_223705.jpg" />
+                    <h4>PC Gamer T-GAMER Hawk Intel i5 10400F / 8GB DDR4 / SSD 240GB</h4>
+                    <p>
+                        Processador Intel Core i5 10400F, 2.90GHz (4.30GHz Turbo), 6/12 C/Cooler LGA 1200 S/Video
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/16784/pc-gamer-t-gamer-hawk-intel-i5-10400f-amd-radeon-rx-550-8gb-ddr4-ssd-240gb" class="product-button" target="_blank">
+                        R$ 3.811,25 à vista
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="src/img/pc-gamer-t-moba-insaity-intel-i7-8700-geforce-gtx-1650-ddr4-8gb-ssd-480gb_225071.jpg" />
+                    <h4>Pc Gamer T-Moba Insaity Intel I7 8700 / DDR4 8GB / SSD 480GB</h4>
+                    <p>
+                        Processador Intel Core i7 8700 3.2GHz (Max Turbo 4.60GHz) 12MB, 8ª Geração Coffee Lake OEM
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/32714/pc-gamer-t-moba-insaity-intel-i7-8700-radeon-rx-550-ddr4-8gb-ssd-480gb" class="product-button" target="_blank">
+                        R$ 2.654,70 à vista
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="src/img/monitor-gamer-ninja-tenseigan-27-pol-quad-hd-ips-1ms-240hz-hdr-freesync-hdmidp-white-mgn-009-27w_202217.jpg" />
+                    <h4>Monitor Gamer Ninja Tenseigan, 27 Polegadas. Extreme Gráficos</h4>
+                    <p>
+                        Quad HD, IPS, 1ms, 240Hz, HDR, FreeSync, HDMI/DP, White, MGN-009-27W, Lorem Ispurn Lorem
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/29672/monitor-gamer-ninja-tenseigan-27-pol-quad-hd-ips-1ms-240hz-freesync-hdr-hdmidp-black-mgn-009-27b" class="product-button" target="_blank">
+                        R$ 1.299,90 à vista
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="src/img/water-cooler-superframe-isengard-magic-360mm-bomba-infinit-display-lcd-customizavel-argb-intel-amd-controladora-white-magic-360mm-wh_192572.jpg" />
+                    <h4>Water Cooler SuperFrame ISENGARD MAGIC,</h4>
+                    <p>
+                        360mm, Bomba Infinit, Display LCD Customizável, ARGB, Intel-AMD, White, SF-W360-MW
+                    </p>
+                    <a href="https://www.terabyteshop.com.br/produto/28263/water-cooler-superframe-isengard-magic-360mm-bomba-infinit-display-lcd-customizavel-argb-intel-amd-controladora-white-magic-360mm-wh" class="product-button" target="_blank">
+                        R$ 659,90 à vista
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
